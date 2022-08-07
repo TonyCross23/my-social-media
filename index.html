@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                TalBook
+            </h2>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search">
+            </div>
+
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="./image/img1.jfif">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main section -->
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./image/img1.jfif" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Tony Cross</h4>
+                        <p class="text-muted">
+                            @Tony
+                        </p>
+                    </div>
+                </a>
+                <!-- sidebar start -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <h3>Home</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="fa-solid fa-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+
+                    <a class="menu-item " id="notifications">
+                        <span><i class="fa-solid fa-bell"><small class="notification-count">8</small></i></span>
+                        <h3>Notifications</h3>
+
+                        <!-- notification section -->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img2.jfif" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mr.Tittie</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img4.png" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>babble</b> accepted your friend request
+                                    <small class="text-muted">1 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img5.jpeg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Casper</b> accepted your friend request
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jou</b> accepted your friend request
+                                    <small class="text-muted">3 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img7.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Creping</b> accepted your friend request
+                                    <small class="text-muted">3 HOUR AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./image/img8.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Blander</b> accepted your friend request
+                                    <small class="text-muted">2 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- notification section -->
+                    </a>
+
+                    <a class="menu-item " id="message-notifications">
+                        <span><i class="fa-solid fa-envelope" ><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="fa-solid fa-bookmark"></i></span>
+                        <h3>bookmarks</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="fa-solid fa-chart-line"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="fa-solid fa-palette"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+
+
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-gear"></i></span>
+                        <h3>Setting</h3>
+                    </a>
+
+                </div>
+                <!-- sidebar end -->
+
+                <label for="create-post" class="btn btn-primary">Crate Post</label>
+            </div>
+            <!-- ////////////////////// -->
+            <div class="middle">
+
+                <div class="stories">
+                    <!-- stories start -->
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img1.jfif" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img4.png" alt="">
+                        </div>
+                        <p class="name">Lila Jum</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img8.jpg" alt="">
+                        </div>
+                        <p class="name">Jum Bisk</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img7.jpg" alt="">
+                        </div>
+                        <p class="name">Luna</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./image/img6.jpg" alt="">
+                        </div>
+                        <p class="name">Sill</p>
+                    </div>
+
+
+                </div>
+                <!-- stories end -->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="./image/img1.jfif" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!-- feed -->
+                <div class="feeds">
+                    <!-- first feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./image/feed1.webp" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Peaky Blinder</h3>
+                                    <small>30 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./image/feed11.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="like-by">
+                            <span><img src="./image/img2.jfif" alt=""></span>
+                            <span><img src="./image/img5.jpeg" alt=""></span>
+                            <span><img src="./image/img8.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiever</b> and 23,2323 other</p>
+                        </div>
+
+                        <div class="caption">
+                            <p> <b>Peaky Blinder</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius illo exercitationem ab voluptates.</p>
+                        </div>
+                        <div class="comments text-muted">View a;; 29,3443 comments</div>
+                    </div>
+                    <!-- first feed end -->
+
+                    <!-- second feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./image/feed2.jfif" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Thomas Shelby</h3>
+                                    <small>1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./image/Thomas Shelby.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="like-by">
+                            <span><img src="./image/img2.jfif" alt=""></span>
+                            <span><img src="./image/img5.jpeg" alt=""></span>
+                            <span><img src="./image/img8.jpg" alt=""></span>
+                            <p>Liked by <b>Tony</b> and 223,2323 other</p>
+                        </div>
+
+                        <div class="caption">
+                            <p> <b>Thomas Shelby</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure vel beatae explicabo sapiente!</p>
+                        </div>
+                        <div class="comments text-muted">View a;; 321,3443 comments</div>
+                    </div>
+                    <!-- second feed end -->
+
+                    <!-- third feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./image/marvel.webp" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>MARVEL STUDIO</h3>
+                                    <small>45 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./image/feed4.webp" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="like-by">
+                            <span><img src="./image/img2.jfif" alt=""></span>
+                            <span><img src="./image/img5.jpeg" alt=""></span>
+                            <span><img src="./image/img8.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest </b> and 232,2323 other</p>
+                        </div>
+
+                        <div class="caption">
+                            <p> <b>MARVEL STUDIO</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit est quisquam repellat eius.</p>
+                        </div>
+                        <div class="comments text-muted">View a;; 219,3443 comments</div>
+                    </div>
+                    <!-- third feed end -->
+
+                    <!-- fourth feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./image/disnep.webp" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Disnep</h3>
+                                    <small>11 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./image/disnep+.jpeg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="like-by">
+                            <span><img src="./image/img2.jfif" alt=""></span>
+                            <span><img src="./image/img5.jpeg" alt=""></span>
+                            <span><img src="./image/img8.jpg" alt=""></span>
+                            <p>Liked by <b>You</b> and 253,2323 other</p>
+                        </div>
+
+                        <div class="caption">
+                            <p> <b>Disnep</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos tempora exercitationem in dolore fugit rem?</p>
+                        </div>
+                        <div class="comments text-muted">View a;; 279,3443 comments</div>
+                    </div>
+                    <!-- fourth feed end -->
+
+                    <!-- five feed -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./image/dc.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>DC Comics</h3>
+                                    <small>8 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./image/dc-comics-collage-i15088.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="like-by">
+                            <span><img src="./image/img2.jfif" alt=""></span>
+                            <span><img src="./image/img5.jpeg" alt=""></span>
+                            <span><img src="./image/img8.jpg" alt=""></span>
+                            <p>Liked by <b>Cross</b> and 232,2323 other</p>
+                        </div>
+
+                        <div class="caption">
+                            <p> <b>DC Comics</b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum architecto quia minima magnam deserunt.</p>
+                        </div>
+                        <div class="comments text-muted">View a;; 299,3443 comments</div>
+                    </div>
+                    <!-- five feed end -->
+                </div>
+                <!-- feed -->
+            </div>
+
+
+            <div class="right">
+
+            </div>
+        </div>
+    </main>
+    <!-- Main section -->
+</body>
+
+</html>
